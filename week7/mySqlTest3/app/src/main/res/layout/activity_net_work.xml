@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".netWorkActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnThread"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="多线程"/>
+        <Button
+            android:id="@+id/btnHttpURLCon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="连接"/>
+        <Button
+            android:id="@+id/btnOkHttp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="okHttp"/>
+        <Button
+            android:id="@+id/btnHttpUrlConnCallback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="http回调"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnOkHttpCallback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OKHttp回调"/>
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/tvResponse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:text="读取结果"/>
+    </ScrollView>
+
+
+
+</LinearLayout>

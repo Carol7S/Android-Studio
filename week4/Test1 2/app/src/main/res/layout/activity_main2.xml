@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity2"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tvTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="second_hello!"/>
+        <TextView
+            android:id="@+id/tvShangWu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/tvShangWu_E"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tvTest2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="second_hello!"/>
+        <TextView
+            android:id="@+id/tvFirstNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/tvFirstNumber_E"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tvTest3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="second_hello!"/>
+        <TextView
+            android:id="@+id/tvSecondNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/tvSecondNumber_E"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tvTest4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="second_hello!"/>
+        <TextView
+            android:id="@+id/tvWuZuo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="123456"/>
+        <EditText
+            android:id="@+id/tvWuZuo_E"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnReturnPara"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "返回"
+            />
+    </LinearLayout>
+</LinearLayout>
